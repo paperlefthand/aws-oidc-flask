@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flask",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "flask",
+            "args": [
+                "--app",
+                "app.main",
+                "run",
+                "-p",
+                "8080"
+            ],
+            "jinja": true,
+            "python": "${workspaceFolder}/app/.venv/Scripts/python",
+            // "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
