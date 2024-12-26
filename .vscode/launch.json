@@ -14,8 +14,7 @@
                 "8080"
             ],
             "jinja": true,
-            "python": "${workspaceFolder}/app/.venv/Scripts/python",
-            // "envFile": "${workspaceFolder}/.env"
+            "python": "${workspaceFolder}/app/.venv/Scripts/python"
         }
     ]
 }
